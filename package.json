@@ -1,0 +1,31 @@
+{
+  "name": "freecodecamp-chat",
+  "version": "1.0.0",
+  "description": "lesson from freeCodeCamp Advanced Node section",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "cookie-parser": "1.4.3",
+    "cors": "latest",
+    "dotenv": "latest",
+    "emojis": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "helmet": "latest",
+    "jquery": "3.3.1",
+    "mongodb": "latest",
+    "passport": "latest",
+    "passport-github": "1.1.0",
+    "passport-local": "latest",
+    "passport.socketio": "3.7.0",
+    "pug": "latest",
+    "socket.io": "2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": ["chat", "socket.io", "nodejs", "passport", "helmet"]
+}
